@@ -1,12 +1,4 @@
-# 🪩 Chromium in Replit
-This repo allows you to quicky launch a [chromium][chromium-link] instace on [replit][replit-link]. It's useful if you want to quickly look up something on the school computer, or just lazy to open an incognito tab.
+# 🪩 Chromium on Replit
+Chromium is a free and open-source web browser project, primarily developed and maintained by Google. This repo allows you to run a [Chromium](https://www.chromium.org/chromium-projects/) instace on [Replit](https://replit.com/). It's useful if you want to quickly look up something on the school computer, or just lazy to open an incognito tab. *NOTE: There will be no sound output.*
 
-[![Run on Replit][replit-badge]][link]
-
-> [!NOTE]
-> Replit doesn't allows you to play audio from the output tab, so there will be no sound.
-
-[chromium-link]: https://www.chromium.org/chromium-projects/
-[replit-link]: https://replit.com/
-[replit-badge]: https://replit.com/badge/github/tibor309/chromium-replit
-[link]: https://replit.com/github/tibor309/chromium-replit
+[![Run on Replit](https://replit.com/badge/github/tibor309/chromium-replit)](https://replit.com/github/tibor309/chromium-replit)
