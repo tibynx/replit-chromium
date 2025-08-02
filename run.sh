@@ -4,7 +4,7 @@ BIN=chromium
 
 # Cleanup
 if ! pgrep chromium > /dev/null;then
-  rm -f ./.config/chromium/Singleton*
+  rm -f "${HOME}/workspace/.config/chromium/Singleton*"
 fi
 
 ${BIN} \
@@ -16,4 +16,4 @@ ${BIN} \
 --start-maximized \
 --test-type \
 --user-data-dir \
-  "./.config" > /dev/null 2>&1
+  "${HOME}/workspace/.config" > /dev/null 2>&1
