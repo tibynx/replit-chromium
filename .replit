@@ -1,5 +1,8 @@
-run = "./run.sh"
-entrypoint = "README.md"
+run = "${HOME}/workspace/run.sh"
+modules = ["bash", "nix"]
 
 [nix]
-channel = "stable-24_05"
+channel = "stable-25_05"
+
+[deployment]
+run = ["sh", "-c", "${HOME}/workspace/run.sh"]
