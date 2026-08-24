@@ -7,7 +7,7 @@ This repository allows you to run the [Chromium](https://www.chromium.org/chromi
 ## Setup
 1. Click the "Run on Replit" button below. This will create a new project with the necessary files.
 
-    [![Run on Replit](https://img.shields.io/badge/Run%20on%20Replit-%E2%86%92-f3f2ee?style=for-the-badge&logo=replit&labelColor=faf6f1)](https://replit.com/github/tibynx/chromium-replit)
+    [![Run on Replit](https://img.shields.io/badge/Run%20on%20Replit-%E2%86%92-f3f2ee?style=for-the-badge&logo=replit&labelColor=faf6f1)](https://replit.com/github/tibynx/replit-chromium)
 
 2. Wait for the environment to set up. This may take a few minutes as it downloads and installs Chromium.
 
