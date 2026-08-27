@@ -16,4 +16,4 @@ ${BIN} \
 --start-maximized \
 --test-type \
 --user-data-dir \
-  "${HOME}/workspace/.config" > /dev/null 2>&1
+  "${HOME}/workspace/.config" "https://google.com" > /dev/null 2>&1

@@ -6,3 +6,26 @@ channel = "stable-25_05"
 
 [deployment]
 run = ["sh", "-c", "${HOME}/workspace/run.sh"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Chromium"
+
+[[workflows.workflow]]
+name = "Chromium"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "bash run.sh"
+
+[workflows.workflow.metadata]
+outputType = "vnc"
